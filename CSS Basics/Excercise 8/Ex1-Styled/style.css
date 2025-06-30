@@ -1,0 +1,42 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h2, h3{
+    color: #3263eb;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+hr{
+    border: 0;
+    height: 2px;
+    background-color: #000000;
+    margin: 20px 0;
+}
+
+.header-hr {
+    border: 0;
+    height: 2px;
+    background-color: #3263eb;
+    margin:0;
+}
+
+em{
+    color: #19b868;
+    font-style: italic;
+}
+
+strong{
+    color:#690796
+}
