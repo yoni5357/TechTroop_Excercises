@@ -1,0 +1,14 @@
+.container {
+  width: 40%;
+  border: 2px solid purple;
+  display: flex;
+  height: 100px;
+}
+
+.section {
+  width: calc(100% / 3);
+  background-color: pink;
+  border: 2px solid black;
+}
+
+
