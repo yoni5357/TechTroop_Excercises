@@ -1,0 +1,27 @@
+/* .table-row{
+    background-color: #67d826;
+    border: 1px solid #000000;
+} */
+
+table {
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid gray;
+  background-color: aquamarine;
+}
+
+thead th {
+  background-color: #d9e4d9;
+  text-align: center;
+}
+
+th, td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  padding-left: 8px;
+    padding-right: 8px;
+  text-align: left;
+}

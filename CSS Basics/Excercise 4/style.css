@@ -1,0 +1,35 @@
+#container{
+    width: 170px;
+    background-color: gray;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#first{
+    background-color:rgb(23, 170, 170);
+}
+
+#second{
+    background-color: rgb(206, 133, 23);
+}
+
+.prompt{
+    display:inline-block;
+    width: 50px;
+}
+
+.prompt-box{
+    display: inline-block;
+    width: 70%;
+}
+
+.button{
+    display: inline-block;
+    background-color: rgb(23, 170, 170);
+}

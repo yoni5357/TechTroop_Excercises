@@ -1,0 +1,21 @@
+span.underline {
+    color:black;
+    text-decoration: underline;
+}
+
+span.underline a{
+    color: blue;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+img{
+    width: 10%;
+    height: auto;
+}
+
+.recipe-container{
+    width: 100%;
+    height: auto;
+}

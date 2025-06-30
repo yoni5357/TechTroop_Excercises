@@ -1,0 +1,47 @@
+#bookmarks {
+  position: relative;
+}
+
+#bookmarks li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#bookmarks a {
+  height: 50px;
+  display: block;
+}
+
+#news {
+  left: 0px;
+}
+
+#news a{
+    width: 100px;
+    background: url(https://ynet-pic1.yit.co.il/picserver5/wcm_upload/2024/07/09/B1LH3j5DR/new_logo_gif_ynet.gif) 0 0 no-repeat;
+    background-size: 100px 50px;
+}
+
+#youtube {
+  left: 100px;
+}
+
+#youtube a{
+  width: 200px;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/512px-YouTube_Logo_2017.svg.png) 0px 0 no-repeat;
+  background-size: 200px 44px;
+}
+
+#facebook {
+    left: 305px;
+}
+
+#facebook a{
+  
+  width: 43px;
+  background: url(https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/512px-Facebook_f_logo_%282021%29.svg.png?20210818083032) 0 0 no-repeat;
+  background-size: 43px 50px;
+}
