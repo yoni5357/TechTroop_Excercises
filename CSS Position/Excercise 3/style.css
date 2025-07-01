@@ -1,0 +1,67 @@
+#container {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(112, 91, 170);
+    border-radius: 10px;
+}
+
+#day {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#first-line,
+#second-line,
+#third-line,
+#fourth-line,
+#fifth-line,
+#sixth-line {
+    position: absolute;
+    bottom: 10px;
+    background-color: #bbb;
+    margin-left: 10px;
+}
+
+#first-line{
+    left: 0;
+    width: 30px;
+    height: 10%;
+}
+
+#second-line{
+    left: calc((70% / 6));
+    width: 30px;
+    height: 55%;
+}
+
+#third-line{
+    left: calc((70% / 6) + 50px);
+    width: 30px;
+    height: 85%;
+}
+
+#fourth-line{
+    left: calc((70% / 6) + 100px);
+    width: 30px;
+    height: 75%;
+}
+
+#fifth-line{
+    left: calc((70% / 6) + 150px);
+    width: 30px;
+    height: 70%;
+}
+
+#sixth-line{
+    left: calc((70% / 6) + 200px);
+    width: 30px;
+    height: 45%;
+}
+
+#time {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
