@@ -1,0 +1,26 @@
+.page-container{
+    display: flex;
+    width: 30%;
+    height: 70vh;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+.page-1, .page-2{
+    flex: 1;
+    display: flex;
+    border: 1px solid rgb(184, 184, 184);
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-circle{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 110, 255);
+    border-radius: 50%;
+}
+
+.text{
+    padding: 30px;
+    font-size: 25px;
+}

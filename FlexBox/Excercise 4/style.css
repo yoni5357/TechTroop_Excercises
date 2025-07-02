@@ -1,0 +1,50 @@
+.page-container{
+    display: flex;
+    width: 30%;
+    height: 70vh;
+    border: 5px solid rgb(228, 129, 99);
+}
+
+.line-container{
+    width: 60%;
+    padding: 10px;
+}
+
+.page-1, .page-2{
+    display: flex;
+    border: 5px solid rgb(228, 129, 99);
+    justify-content: center;
+
+}
+
+.page-1{
+    flex: 1;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.page-2{
+    flex: 3;
+    align-items: center;
+}
+
+.line-1, .line-2{
+    height: 25px;
+    background-color: rgb(228, 129, 99);
+    margin-top: 15px;
+}
+
+.line-1{
+    width: 100%;
+}
+
+.line-2{
+    width: 70%;
+}
+
+.text{
+    padding: 30px;
+    font-size: 25px;
+    color: grey;
+}
